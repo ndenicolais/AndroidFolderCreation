@@ -116,7 +116,7 @@ class MainActivity : AppCompatActivity() {
             // Android is 11 (R) or above
             Environment.isExternalStorageManager()
         } else {
-            // Android is 11 (R) or above
+            // Android is below 11 (R)
             val write = ContextCompat.checkSelfPermission(this,
                 Manifest.permission.WRITE_EXTERNAL_STORAGE)
             val read = ContextCompat.checkSelfPermission(this,
