@@ -6,6 +6,8 @@
 </p>
 
 ## Android version permissions
+Add in your AndroidManifest:
+
 Permissions for the Android below 11 (R)
 ```
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
