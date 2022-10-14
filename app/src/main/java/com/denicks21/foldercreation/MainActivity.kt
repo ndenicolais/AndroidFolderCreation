@@ -1,6 +1,5 @@
 package com.denicks21.foldercreation
 
-
 import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager
