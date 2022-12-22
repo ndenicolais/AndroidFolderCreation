@@ -3,8 +3,8 @@
 
 ## Screen preview
 <p float="left">
-<img height="500em" src="FolderCreationScreen0.png" title="FolderCreation's screen preview">
-<img height="500em" src="FolderCreationScreen1.png" title="FolderCreation's screen preview">
+<img height="500em" src="FolderCreationS1.png" title="FolderCreation's screen preview">
+<img height="500em" src="FolderCreationS2.png" title="FolderCreation's screen preview">
 </p>
 
 ## Android version permissions
