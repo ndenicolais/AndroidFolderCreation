@@ -5,40 +5,67 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_color"
+    android:background="@color/primary"
     android:padding="5dp"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/folderTextView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Create new folder"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/secondary"
+        android:ellipsize="none"
+        android:maxLines="1"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="18sp"
+        app:autoSizeMaxTextSize="22sp"
+        app:autoSizeStepGranularity="2sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"/>
+
     <EditText
         android:id="@+id/folderName"
-        android:layout_width="250dp"
+        android:labelFor="@id/folderName"
+        android:layout_width="260dp"
         android:layout_height="60dp"
-        android:layout_marginStart="3dp"
+        android:padding="7dp"
         android:background="@drawable/btn_basic"
-        android:backgroundTint="@color/primary"
-        android:hint="Name of folder"
-        android:textColorHint="@color/secondary"
-        android:textColor="@color/secondary"
-        android:inputType="textCapSentences"
+        android:backgroundTint="@color/secondary"
         android:autofillHints=""
+        android:cursorVisible="true"
+        android:textCursorDrawable="@drawable/edit_text_cursor"
+        android:textColor="@color/primary"
+        android:inputType="textCapSentences"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45"/>
+        app:layout_constraintVertical_bias="0.56"/>
 
     <Button
-        android:id="@+id/folderCreate"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_marginEnd="3dp"
+        android:id="@+id/clear_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/btn_cancel"
+        android:backgroundTint="@color/primary"
+        app:layout_constraintEnd_toEndOf="@id/folderName"
+        app:layout_constraintTop_toTopOf="@id/folderName"
+        app:layout_constraintBottom_toBottomOf="@id/folderName"/>
+
+    <Button
+        android:id="@+id/rilievoFolder"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/btn_folder_add"
+        android:backgroundTint="@color/secondary"
         android:layout_below="@+id/folderName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65"/>
+        app:layout_constraintTop_toTopOf="@+id/folderTextView"
+        app:layout_constraintRight_toRightOf="@+id/folderTextView"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
