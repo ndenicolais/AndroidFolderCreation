@@ -1,11 +1,10 @@
 # AndroidFolderCreation
 > <b>Author: Nicola De Nicolais</b>
 
-
 ## Screen preview
 <p float="left">
-<img height="500em" src="FolderCreationScreen0.png" title="ToastMessage's screen preview">
-<img height="500em" src="FolderCreationScreen1.png" title="ToastMessage's screen preview">
+<img height="500em" src="FolderCreationScreen0.png" title="FolderCreation's screen preview">
+<img height="500em" src="FolderCreationScreen1.png" title="FolderCreation's screen preview">
 </p>
 
 ## Android version permissions
