@@ -13,7 +13,7 @@
         android:id="@+id/folderTextView"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:text="Create new folder"
+        android:text="@string/createFolder"
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="@color/secondary"
@@ -59,7 +59,7 @@
         app:layout_constraintBottom_toBottomOf="@id/folderName"/>
 
     <Button
-        android:id="@+id/rilievoFolder"
+        android:id="@+id/folderCreate"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginTop="20dp"
